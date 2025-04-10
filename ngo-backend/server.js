@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 // ✅ MongoDB connection (updated: removed deprecated options)
-mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/ngowebsite")
+mongoose.connect("mongodb+srv://aniket239209:<db_password>@cluster0.e9bdef0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("✅ MongoDB connected"))
   .catch((err) => console.error("❌ MongoDB connection error:", err));
 
