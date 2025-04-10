@@ -300,37 +300,12 @@ section {
 
 /* footer */
 
-
-.footer-link {
-  color: #f8f9fa;
-  text-decoration: none;
-  display: block;
-  margin-bottom: 8px;
-  transition: color 0.3s ease;
+.footer {
+  background-color: #064E3B;
+  color: #fff !important;
 }
-
-.footer-link:hover {
-  color: #f8d210;
-}
-
-.social-icon {
-  font-size: 1.5rem;
-  color: #f8f9fa;
-  margin: 0 10px;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.social-icon:hover {
-  color: #f8d210;
-  transform: scale(1.1);
-}
-
-.input-group .form-control {
-  border-radius: 0;
-}
-
-.btn-warning {
-  border-radius: 0;
+.footer a {
+  color: #fff !important; 
 }
 
 @media (max-width: 720px) {
