@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 // ✅ MongoDB connection (updated: removed deprecated options)
-mongoose.connect("mongodb+srv://aniket239209:<db_password>@cluster0.e9bdef0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb://atlas-sql-67f360075ce5ed4cfe296802-s3p6p.a.query.mongodb.net/sample_mflix?ssl=true&authSource=admin")
   .then(() => console.log("✅ MongoDB connected"))
   .catch((err) => console.error("❌ MongoDB connection error:", err));
 
